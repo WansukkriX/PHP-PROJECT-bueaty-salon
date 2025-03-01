@@ -117,8 +117,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
- 
-
     <div class="container py-5">
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
             <!-- <h5 class="text-uppercase text-primary">จองคิวบริการ</h5> -->
@@ -186,18 +184,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <small class="form-text text-muted">กรุณาอัพโหลดสลิปการโอนเงินตาม QR Code ด้านล่าง</small>
                             </div>
                             <div class="row justify-content-center mb-4">
-                        <div class="col-lg-6 text-center">
-                            <h5 class="mb-3">QR Code สำหรับการโอนเงิน</h5>
-                            <img src="img/qr1.png" class="img-fluid" style="max-width: 250px;" alt="QR Code">
+                                <div class="col-lg-6 text-center">
+                                    <h5 class="mb-3">QR Code สำหรับการโอนเงิน</h5>
+                                    <img src="img/qr1.png" class="img-fluid" style="max-width: 250px;" alt="QR Code">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                        </div>
-                    </div>
-
-                  
 
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary btn-hover-bg text-white py-2 px-4">ยืนยันการจอง</button>
+                        <button type="submit" class="btn btn-primary btn-hover-bg text-white py-2 px-4 me-2">ยืนยันการจอง</button>
+                        <a href="index.php" class="btn btn-secondary btn-hover-bg py-2 px-4"><i class="fas fa-arrow-left me-2"></i>ย้อนกลับ</a>
                     </div>
                 </form>
             </div>

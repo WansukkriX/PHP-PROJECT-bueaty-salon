@@ -58,40 +58,30 @@ $result = $conn->query($sql);
     <!-- Navbar Start -->
     <?php include('navbar.php'); ?>
     <!-- Navbar End -->
+ 
+ 
 
-    <!-- Events Start -->
-    <section id="Our Services" class="Our Services">
-        <div class="container-fluid event py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-                    <h5 class="text-uppercase text-primary">Promotions</h5>
-                    <h1 class="mb-0">March more Promotions this Year 2025!</h1>
-                </div>
-                <div class="event-carousel owl-carousel">
-                    <div class="event-item">
-                        <img src="img/pro/02.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                    <div class="event-item">
-                        <img src="img/pro/0.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                    <div class="event-item">
-                        <img src="img/pro/5.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                    <div class="event-item">
-                        <img src="img/pro/01.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                </div>
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4"><?php echo $category_name; ?></h1>
+            
+                <p class="fs-5 text-white mb-4">We believe that "A great hairstyle can change your life," and we are here to make that transformation happen.</p>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    
+                </ol>    
             </div>
         </div>
-    </section>
-    <!-- Events End -->
+        <!-- Header End -->
 
     <!-- Blog Start -->
     <div class="container-fluid blog py-5 mb-5" id="show_services">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
                 <h5 class="text-uppercase text-primary">Hair Services</h5>
-                <h1 class="mb-0"><?php echo $category_name; ?></h1>
+              <!--  -->
             </div>
             <div class="row g-4">
                 <?php
